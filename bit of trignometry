@@ -1,0 +1,8 @@
+import math
+
+in = float(raw_input("Please enter the measurement of your angle in degrees."))
+d = math.degrees(in)
+
+print "The sine of %r degrees is %r degrees." % (d, math.degrees(math.sin(d)))
+print "The cosine of %r degrees is %r degrees." % (d,math.degrees(math.cos(d)))
+print "The tangent of %r degrees is %r degrees." % (d, math.degrees(math.tan(d)))
