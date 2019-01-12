@@ -1,0 +1,6 @@
+import time 
+seconds=int(input("how many seconds ka stopwatch"))
+
+for i in range(seconds):
+    print(str(seconds-i))
+    time.sleep(2)
