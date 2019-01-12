@@ -1,0 +1,5 @@
+from textblob import TextBlob
+t="amigo"
+text=TextBlob(t)
+text.translate()
+text.translate().string
