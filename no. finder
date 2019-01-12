@@ -1,0 +1,4 @@
+import re
+trxt="asdsfrgrsdvre3fedf5vdfvf43445vdfgf44"
+numbers=re.findall(r'\d+',trxt)
+print(numbers)
