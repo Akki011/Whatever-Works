@@ -1,0 +1,4 @@
+#piglet format
+import pyfiglet
+result=pyfiglet.figlet_format("Riya  is ---", font="banner3-d")
+print(result)
